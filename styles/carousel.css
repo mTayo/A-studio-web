@@ -1,7 +1,7 @@
 .carousel-section{
     display: flex;
-  justify-content: space-between;
-  align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .carousel {
     overflow: hidden;
@@ -44,7 +44,7 @@
 .indicators {
     position: absolute;
     bottom: 10%;
-    right: 35%;
+    right: 61%;
     display: flex;
     justify-content: center;
     cursor: pointer;

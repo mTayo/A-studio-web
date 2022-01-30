@@ -94,7 +94,7 @@ li{
 }
 
 .hero-left{
-  min-width: 457px !important;
+  min-width: 40% !important;
   position: relative;
 }
 .hero-left button{
@@ -195,7 +195,7 @@ li{
   z-index: -2;
   position: absolute;
   bottom: 10%;
-  left: 9%;
+  right: 50%;
 }
 .business-left .header-container{
   position: relative;
@@ -314,24 +314,27 @@ li{
   z-index: -1;
   position: absolute;
   top: 0%;
-  right: 70%;
+  /* right: 70%; */
   margin-top: -50px;
 }
 
 /* CTA */
 .CTA{
-  background: url('/images/Rectangle 31.svg') right no-repeat, url('/images/Rectangle 30.svg') left bottom no-repeat;
+  background: url('/images/Rectangle 31.svg') right no-repeat, url('/images/Rectangle 30.svg') left  no-repeat;
+  margin: 0 auto;
   margin-top: 110px;
-  height: 37vh;
+  height: 370px;
   display: flex;
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
+  width: 80%;
+ 
 }
 .CTA-content{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 100%;
 }
 .contact-form{
@@ -340,6 +343,9 @@ li{
   width: 45%;
   box-shadow: 10px 20px 50px rgba(0, 0, 0, 0.15);
   border-radius: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .contact-form input{
   width: 70%;
