@@ -9,7 +9,7 @@ const Home: NextPage = () => {
         <nav>
           <div className='logo-container'>
             <img
-              src="/images/A+ Studio.svg"
+              src="/images/app-logo.svg"
               alt="A+ Studio"
             />
           </div>
@@ -337,7 +337,7 @@ const Home: NextPage = () => {
             <div className='footer-section-1'>
               <div className=''>
                 <img
-                  src="/images/A+ Studio.svg"
+                  src="/images/app-logo.svg"
                   alt="A+ Studio"
                 />
             </div>
