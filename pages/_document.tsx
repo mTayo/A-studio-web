@@ -10,7 +10,7 @@ class MyDocument extends Document {
     
             < link 
                 rel="shortcut icon"
-                href={"/favicon.png"}
+                href={"/favicon.ico"}
             />
      
    

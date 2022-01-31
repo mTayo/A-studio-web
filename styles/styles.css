@@ -334,8 +334,24 @@ li{
   align-items: center;
   padding-left: 30px;
   padding-right: 30px;
-  width: 80%;
- 
+  width: 85%;
+  position: relative;
+}
+.CTA_floating_img_1{
+  position: absolute;
+  content: url('/images/Rectangle 32.svg');
+  bottom: 0;
+  left:0;
+  z-index: -1;
+  margin-bottom: -20px;
+}
+.CTA_floating_img_2{
+  position: absolute;
+  content: url('/images/Group 73.svg');
+  top: 0;
+  right:0;
+  z-index: -1;
+  margin-top: -20px;
 }
 .CTA-content{
   display: flex;

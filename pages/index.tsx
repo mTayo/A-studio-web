@@ -249,6 +249,7 @@ const Home: NextPage = () => {
           <CarouselItem>
               <div className='carousel-img'>
                 <img src="/images/testimonial.jpeg"/>
+                <div className='floating-img-circle'/>
               </div>
               <div className='carousel-details'>
                   <h3>
@@ -265,7 +266,8 @@ const Home: NextPage = () => {
           <CarouselItem>
               <div className='carousel-img'>
                 <img src="/images/meritt-thomas-aoQ4DYZLE_E-unsplash.jpg"/>
-                </div>
+                <div className='floating-img-circle'/>
+              </div>
                 <div className='carousel-details'>
                   <h3>
                     Ana Ross
@@ -281,6 +283,7 @@ const Home: NextPage = () => {
           <CarouselItem>
                 <div className='carousel-img'>
                   <img src="/images/michael-dam-mEZ3PoFGs_k-unsplash.jpg"/>
+                  <div className='floating-img-circle'/>
                 </div>
                 <div className='carousel-details'>
                   <h3>
@@ -297,6 +300,7 @@ const Home: NextPage = () => {
           <CarouselItem>
               <div className='carousel-img'>
                   <img src="/images/austin-distel-7uoMmzPd2JA-unsplash.jpg" />
+                  <div className='floating-img-circle'/>
                 </div>
                 <div className='carousel-details'>
                   <h3>
@@ -314,9 +318,13 @@ const Home: NextPage = () => {
         </Carousel>
         <div className='img-gallery'>
               <img src="/images/Group 71.png" />
+            <div className='img-gallery-floating-shape' />
         </div>
       </div>
+
       <div className='CTA default-margin'>
+        <div className='CTA_floating_img_1' />
+        <div className='CTA_floating_img_2' />
           <div className='CTA-content'>
                 <div>
                   <h3>

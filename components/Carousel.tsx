@@ -58,7 +58,7 @@ const Carousel = ({ children }:any) => {
           return React.cloneElement(child, { width: "100%" });
         })}
       </div>
-      <div className="indicators">
+      {/* <div className="indicators">
        
         {React.Children.map(children, (child, index) => {
           return (
@@ -72,7 +72,7 @@ const Carousel = ({ children }:any) => {
           );
         })}
         
-      </div>
+      </div> */}
     </div>
   );
 };
