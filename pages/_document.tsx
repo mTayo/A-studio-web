@@ -26,7 +26,7 @@ class MyDocument extends Document {
           />
           <meta name="theme-color" content="#000000" />
           <title>
-            Frontend Labs
+            A+ Studios
           </title>
 
         

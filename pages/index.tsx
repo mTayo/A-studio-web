@@ -23,6 +23,9 @@ const Home: NextPage = () => {
               <li>Contact</li>
             </ul>
           </div>
+          <div className='hamburger-menu-container'>
+            <img src="/images/menu_icon.png" className='hamburger-menu'/>
+          </div>
         </nav>
 
 
@@ -32,9 +35,9 @@ const Home: NextPage = () => {
                 A Digital Product Agency
               </h3>
               <p className='hero-text'>
-                Leading digital agency with solid design <br/>and development expertise.<br/> 
+                Leading digital agency with solid design and development expertise.
                 We build readymade websites, mobile applications, 
-                and<br/> elaborate online business services.
+                and elaborate online business services.
               </p>
               <button>
                 Contact us
@@ -54,6 +57,7 @@ const Home: NextPage = () => {
             <img
                 src="/images/hero_img.png"
                 alt="A+ Studio"
+                className='hero-img'
             />
             <div 
                 className='hero-right-shape-top'
@@ -125,7 +129,7 @@ const Home: NextPage = () => {
 
       </section>
 
-      {/* Business section */}
+    
       <section className='business-section '>
         <div className='business-section-bg' />
         <div className='business-section-bg-2' />
@@ -212,13 +216,9 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      {/* Digital product */}
+      
       <section className='digital-product default-margin'>
-        <div className='img-container'>
-          <img src="/images/video.jpeg" />
-          <div className='play-button' />
-          <div className='floating-img' />
-        </div>
+        
         <div>
             <div className='digital-product-header'> 
               <h3>
@@ -233,8 +233,13 @@ const Home: NextPage = () => {
               high quality Product with modern idea accordingly their budgets and according thir reuirements.
             </p>
         </div>
+        <div className='img-container'>
+          <img src="/images/video.jpeg" />
+          <div className='play-button' />
+          <div className='floating-img' />
+        </div>
       </section>
-      {/* Carousel */}
+ 
       <div className='carousel-header default-margin'>
             <h3>What our happy client say</h3>
             <p>Several selected clients, who already believe in our service.</p>
@@ -331,7 +336,7 @@ const Home: NextPage = () => {
                 </form>
           </div>
       </div>
-      {/* Footer */}
+     
       <div className='footer default-margin'>
           <div className='footer-short-cut-section'>
             <div className='footer-section-1'>
